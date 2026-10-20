@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "knight_armor_mod",
+  "version": "${mod_version}",
+  "name": "Knight Armor Mod",
+  "description": "100 unique knight armor sets with epic quality",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.knightarmormod.KnightArmorMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
